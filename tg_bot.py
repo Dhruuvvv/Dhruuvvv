@@ -4,18 +4,10 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 import pytz
 from datetime import datetime
 import os
-from PyPDF2 import PdfReader
 import requests  # For translation API
 from textblob import TextBlob  # For sentiment analysis
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
-from pdf2docx import Converter
-from docx2pdf import convert as docx_to_pdf
 from pathlib import Path
-from pptx import Presentation  # For creating PowerPoint files
-import comtypes.client  # For PowerPoint to PDF on Windowsfrom pdf2docx import Converter
-from pdf2image import convert_from_path
-from pptx import Presentation
-from docx import Document
 import yt_dlp
 import time
 from yt_dlp import YoutubeDL
