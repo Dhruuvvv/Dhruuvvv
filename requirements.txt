@@ -1,0 +1,14 @@
+openai
+python-telegram-bot
+pytz
+PyPDF2
+requests
+textblob
+pdf2docx
+docx2pdf
+pathlib
+python-pptx
+comtypes
+pdf2image
+yt-dlp
+python-docx
